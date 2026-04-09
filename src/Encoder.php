@@ -68,7 +68,7 @@ class Encoder
                 if (in_array(strtolower($key), Frame::RESERVED)) continue;
 
                 $value = str_replace(["\r\n", "\r", "\n"], '\n', trim($value));
-                $str .= "\n$key: $value";
+                $str .= "$key: $value\n";
             }
 
             $str .= "Payload-Length: $frame->size\n";
