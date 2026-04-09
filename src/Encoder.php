@@ -75,7 +75,7 @@ class Encoder
 
             if (!empty($frame->payload)) {
                 if ($header->checksumHash !== false) {
-                    $str .= "Checksum: ".hash($header->checksumHash, $frame->payload)."\n";
+                    $str .= "Checksum: $frame->checksum\n";
                 }
 
                 $str .= "Payload:\n";

@@ -39,15 +39,6 @@ class Frame
     ) {}
 
     /**
-     * @param string|null $algo
-     * @return string
-     */
-    public function hash(?string $algo = null): string
-    {
-        return hash($algo ?? $this->header->checksumHash, $this->payload);
-    }
-
-    /**
      * @param string|Frame ...$requires
      * @return array
      */
