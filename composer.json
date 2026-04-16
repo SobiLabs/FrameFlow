@@ -1,0 +1,20 @@
+{
+  "name": "sobi-labs/frameflow",
+  "description": "A lightweight, human-readable protocol for streaming payloads with metadata and integrity checks.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Marco Schnorrer",
+      "email": "info@mylou-labs.de"
+    }
+  ],
+  "require": {
+    "php": ">=8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "FrameFlow\\": "src/"
+    }
+  }
+}
