@@ -1,20 +1,38 @@
 {
   "name": "sobi-labs/frameflow",
-  "description": "A lightweight, human-readable protocol for streaming payloads with metadata and integrity checks.",
+  "description": "A lightweight, human-readable streaming protocol for structured payloads, metadata, and integrity-checked message parts.",
+  "keywords": [
+    "protocol",
+    "streaming",
+    "payload",
+    "metadata",
+    "checksum",
+    "modular",
+    "client-server",
+    "real-time",
+    "event-driven",
+    "human-readable"
+  ],
   "license": "MIT",
   "type": "library",
   "authors": [
     {
       "name": "Marco Schnorrer",
-      "email": "info@mylou-labs.de"
+      "email": "info@mylou-labs.de",
+      "homepage": "https://github.com/SobiLabs"
     }
   ],
+  "homepage": "https://github.com/SobiLabs/FrameFlow",
+  "support": {
+    "issues": "https://github.com/SobiLabs/FrameFlow/issues",
+    "source": "https://github.com/SobiLabs/FrameFlow"
+  },
   "require": {
     "php": ">=8.4"
   },
   "autoload": {
     "psr-4": {
-      "FrameFlow\\": "src/"
+      "SobiLabs\\FrameFlow\\": "src/"
     }
   }
 }

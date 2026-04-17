@@ -12,6 +12,8 @@ FrameFlow is designed for developers who need a robust way to stream data (paylo
 ## Key Features
 
 - **Human Readable:** Inspect your stream with a simple text editor.
+- **Raw Payload Support:** Transmit arbitrarily complex payloads (HTML, CSS, JavaScript, JSON) without escaping.
+- **No Encoding Overhead:** No need for Base64 or other encodings — payloads stay in their original form.
 - **Robust Integrity:** Automatic `sha256` checksums and `Payload-Length` headers for every frame.
 - **Modern PHP 8.4:** Fully utilizes Property Hooks and Asymmetric Visibility for maximum performance and clean code.
 - **Zero Dependencies:** No vendor bloat. Just pure, high-performance PHP.
